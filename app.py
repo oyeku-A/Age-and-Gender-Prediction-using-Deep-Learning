@@ -1,7 +1,6 @@
 import numpy as np
 from PIL import Image
 import streamlit as st
-import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 model = load_model('model/Age_Sex_Detection.keras')
